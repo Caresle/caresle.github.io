@@ -86,9 +86,11 @@ h1, .title-section {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 1rem auto;
+	margin: 1.5rem auto;
 	width: 90%;
 	padding: 4px;
+	border-radius: 8px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .project-title {
