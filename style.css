@@ -69,14 +69,26 @@ h1, .title-section {
 	font-size: 1rem;
 	margin: .5rem auto;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	cursor: pointer;
 }
 
 .btn a {
 	color: inherit;
 }
 
+#projects > p {
+	text-align: center;
+}
+
 .project-card {
 	background-color: var(--gray);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem auto;
+	width: 90%;
+	padding: 4px;
 }
 
 .project-title {
@@ -84,8 +96,29 @@ h1, .title-section {
 }
 
 .project-image {
-	width: 360px;
+	width: 90%;
 	height: 240px;
+	border-radius: 8px;
 	margin: 0 auto;
 	background-color: #666;
+}
+
+.project-link {
+	margin: 1rem auto;
+	display: flex;
+	justify-content: center;
+}
+
+.project-link a {
+	margin: auto .25rem;
+	border: 1px solid var(--primary);
+	padding: 8px;
+	background-color: var(--primary);
+	color: var(--white);
+	border-radius: 4px;
+}
+
+#more-projects {
+	display: block;
+	width: 80%;
 }
