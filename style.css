@@ -124,3 +124,33 @@ h1, .title-section {
 	display: block;
 	width: 80%;
 }
+
+/* Projects page */
+
+.projects-page > p {
+	text-align: center;
+}
+
+.search-project-form {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 0 auto;
+	padding: 2px;
+}
+
+.search-project-form > input, .search-project-form > button {
+	margin: .5rem 0;
+}
+
+.search-project-form > input {
+	height: 48px;
+}
+
+.search-project-form > button {
+	background-color: var(--primary);
+	border: 1px solid var(--primary);
+	color: var(--white);
+	height: 32px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
