@@ -125,6 +125,10 @@ h1, .title-section {
 	width: 80%;
 }
 
+#about {
+	margin-bottom: 1rem;
+}
+
 /* Projects page */
 
 .projects-page > p {
