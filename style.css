@@ -15,3 +15,32 @@ html, body {
 	background-color: var(--dark);
 	color: var(--white);
 }
+
+h3 {
+	width: 100%;
+}
+
+h3, p {
+	text-align: center;
+}
+
+button {
+	background-color: var(--dark);
+	border: none;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+a {
+	color: var(--white);
+	border: 1px solid var(--white);
+	padding: 8px;
+}
+
+#social-media > div > a {
+	margin: 0 .75rem;
+}
