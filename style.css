@@ -3,6 +3,16 @@
 	--white: #FFF;
 }
 
+.dark {
+	--text-color: var(--white);
+	--bg-color: var(--dark);
+}
+
+.light {
+	--text-color: var(--dark);
+	--bg-color: var(--white);
+}
+
 * {
 	font-family: sans-serif;
 	box-sizing: border-box;
@@ -12,8 +22,12 @@ html, body {
 	margin: 0;
 	font-size: 16px;
 	height: 100vh;
-	background-color: var(--dark);
-	color: var(--white);
+	background-color: var(--bg-color);
+	color: var(--text-color);
+}
+
+h1 {
+	text-align: center;
 }
 
 h3 {
@@ -24,9 +38,14 @@ h3, p {
 	text-align: center;
 }
 
+button, img, section > div > a {
+	display: block;
+}
+
 button {
-	background-color: var(--dark);
+	background-color: var(--bg-color);
 	border: none;
+	margin: 1rem auto;
 }
 
 section {
@@ -35,12 +54,24 @@ section {
 	align-items: center;
 }
 
+section > div > a {
+	width: 60%;
+	margin: .25rem auto;
+	text-align: center;
+}
+
 a {
-	color: var(--white);
-	border: 1px solid var(--white);
+	color: var(--text-color);
+	border: 1px solid var(--text-color);
 	padding: 8px;
 }
 
+img {
+	width: 90%;
+	margin: 0 auto;
+}
+
 #social-media > div > a {
-	margin: 0 .75rem;
+	margin: .25rem .75rem;
+	width: 90%;
 }
