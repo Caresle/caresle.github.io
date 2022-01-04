@@ -46,6 +46,7 @@ button {
 	background-color: var(--bg-color);
 	border: none;
 	margin: 1rem auto;
+	font-size: 1rem;
 }
 
 section {
@@ -69,6 +70,7 @@ a {
 img {
 	width: 90%;
 	margin: 0 auto;
+	border-radius: .25rem;
 }
 
 #social-media > div > a {
